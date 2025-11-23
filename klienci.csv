@@ -1,6 +1,6 @@
-id,name,segment,income,openness,conscientiousness,extraversion,agreeableness,neuroticism
-1,Oskar (Programista),Tech Early Adopter,120000,0.9,0.8,0.4,0.5,0.3
-2,Barbara (Emerytka),Senior Citizen,35000,0.2,0.9,0.5,0.8,0.6
-3,Julka (Influencerka),Gen Z Student,0,0.8,0.2,0.9,0.7,0.4
-4,Darek (Dyrektor),Corporate Professional,250000,0.6,0.9,0.8,0.2,0.4
-5,Sebastian (Sceptyk),Tech Early Adopter,60000,0.5,0.9,0.2,0.1,0.9
+id,name,segment,income,age,job,location,family_size,openness,conscientiousness,extraversion,agreeableness,neuroticism
+1,Zofia Nowak,Gen Z Student,3182,23,Tutor,Kraków,2,0.02,0.72,0.48,0.65,0.88
+2,Agnieszka Mazur,Tech Early Adopter,7750,32,Trader Krypto,Poznań,1,0.54,0.93,0.77,0.88,0.72
+3,Kamil Woźniak,Gen Z Student,883,19,Barista,Kraków,1,0.88,0.97,0.82,0.81,0.76
+4,Krzysztof Wójcik,Gen Z Student,2613,20,Bezrobotny,Kraków,1,0.78,0.84,0.43,0.55,0.58
+5,Tomasz Szymański,Gen Z Student,2018,19,Student,Katowice,1,0.33,0.07,0.83,0.17,0.47

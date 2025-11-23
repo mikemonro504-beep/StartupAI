@@ -1,0 +1,101 @@
+id,name,segment,income,age,job,location,family_size,openness,conscientiousness,extraversion,agreeableness,neuroticism
+1,Kamil Wójcik,Tech Early Adopter,11990,37,Bloger Tech,Wieś (Wielkopolska),3,0.81,0.84,0.14,0.17,0.77
+2,Kamil Kowalski,Corporate Professional,19113,34,Prawnik,Wieś (Wielkopolska),5,0.68,0.94,0.75,0.87,0.37
+3,Ewa Kowalski,Senior Citizen,2639,81,Emerytowany Górnik,Łódź,1,0.32,0.84,0.37,0.83,0.67
+4,Bartek Zieliński,Tech Early Adopter,21000,29,Product Designer,Wieś (Wielkopolska),5,0.99,0.21,0.72,0.52,0.8
+5,Agnieszka Wiśniewski,Corporate Professional,35335,31,Manager Projektu,Gdańsk,5,0.13,0.26,0.23,0.46,0.2
+6,Ewa Wójcik,Corporate Professional,29068,41,Manager Projektu,Katowice,3,0.59,0.26,0.24,0.93,0.7
+7,Bartek Krawczyk,Gen Z Student,598,24,Stażysta w korpo,Łódź,5,0.19,0.04,0.62,0.23,0.49
+8,Anna Krawczyk,Gen Z Student,3308,21,Student,Łódź,1,0.41,0.86,0.23,1.0,0.3
+9,Agnieszka Lewandowski,Tech Early Adopter,13396,39,Startup Founder,Warszawa,3,0.98,0.89,0.47,0.3,0.04
+10,Jan Nowak,Tech Early Adopter,16103,30,Inżynier AI,Wieś (Wielkopolska),4,0.92,0.55,0.29,0.09,0.02
+11,Jan Zieliński,Gen Z Student,4105,23,Stażysta w korpo,Wieś (Mazowieckie),3,0.06,0.94,0.86,0.68,0.99
+12,Natalia Szymański,Senior Citizen,3491,75,Emerytowana Księgowa,Wieś (Mazowieckie),1,0.13,0.5,0.02,0.6,0.29
+13,Natalia Nowak,Senior Citizen,2276,74,Emeryt,Łódź,1,0.01,0.64,0.33,0.12,0.76
+14,Kasia Mazur,Corporate Professional,28223,48,Prawnik,Poznań,4,0.14,0.12,0.07,0.84,0.87
+15,Kamil Kamiński,Gen Z Student,3575,22,Grafik Freelancer,Małe miasteczko,4,0.72,0.89,0.18,0.72,0.64
+16,Ewa Kamiński,Tech Early Adopter,23197,30,Bloger Tech,Małe miasteczko,3,0.55,0.46,0.71,0.27,0.73
+17,Michał Krawczyk,Tech Early Adopter,21116,33,Trader Krypto,Wieś (Mazowieckie),1,0.31,0.34,0.11,0.68,0.24
+18,Ola Wójcik,Gen Z Student,3999,24,Barista,Łódź,4,0.73,0.59,0.99,0.88,0.87
+19,Magda Mazur,Senior Citizen,2424,80,Emeryt,Poznań,2,0.89,0.57,0.46,0.89,0.18
+20,Ola Szymański,Tech Early Adopter,19915,27,Trader Krypto,Kraków,3,0.23,0.01,0.39,0.1,0.69
+21,Krzysztof Kowalski,Corporate Professional,26497,34,Programista,Wieś (Wielkopolska),1,0.91,0.13,0.92,0.5,0.82
+22,Kasia Zieliński,Gen Z Student,2094,25,Barista,Katowice,4,0.33,0.45,0.96,0.21,0.13
+23,Ewa Zieliński,Gen Z Student,3175,23,Kelner,Wieś (Wielkopolska),5,0.38,0.0,0.01,0.29,0.03
+24,Kasia Nowak,Gen Z Student,1161,24,Bezrobotny,Kraków,4,0.98,0.48,0.41,0.95,0.29
+25,Piotr Zieliński,Gen Z Student,551,23,Bezrobotny,Wrocław,1,0.65,0.34,0.27,0.88,0.23
+26,Adam Nowak,Corporate Professional,17525,48,Analityk Danych,Kraków,4,0.08,0.6,0.05,0.96,0.32
+27,Jan Kamiński,Gen Z Student,4092,22,Tutor,Warszawa,5,0.34,0.7,0.41,0.34,0.38
+28,Małgosia Lewandowski,Corporate Professional,21517,34,Prawnik,Małe miasteczko,3,0.2,0.55,0.13,0.7,0.8
+29,Jan Wiśniewski,Corporate Professional,32641,31,Programista,Małe miasteczko,2,0.39,0.45,0.24,0.3,0.24
+30,Kamil Zieliński,Tech Early Adopter,16918,35,Startup Founder,Poznań,1,0.79,0.7,0.29,0.96,0.15
+31,Ewa Kamiński,Senior Citizen,5004,72,Emerytowany Nauczyciel,Łódź,1,0.71,0.3,0.73,0.11,0.0
+32,Bartek Szymański,Senior Citizen,4990,85,Emerytowana Księgowa,Katowice,2,0.33,0.95,0.12,0.93,0.22
+33,Paweł Kowalczyk,Gen Z Student,662,22,Grafik Freelancer,Łódź,2,0.17,0.91,0.38,0.71,0.29
+34,Magda Kamiński,Gen Z Student,3705,20,Grafik Freelancer,Warszawa,1,0.93,0.43,0.32,0.96,0.65
+35,Tomasz Kamiński,Tech Early Adopter,17443,36,Bloger Tech,Warszawa,5,0.94,0.52,0.24,0.64,0.75
+36,Agnieszka Kamiński,Gen Z Student,1507,24,Grafik Freelancer,Łódź,1,0.29,0.44,0.7,0.69,0.7
+37,Piotr Kowalski,Gen Z Student,4091,24,Grafik Freelancer,Poznań,1,0.92,0.44,0.15,0.24,0.29
+38,Adam Kowalczyk,Corporate Professional,35816,34,Dyrektor Finansowy,Małe miasteczko,3,0.12,0.03,0.26,1.0,0.71
+39,Michał Wiśniewski,Gen Z Student,2870,21,Kelner,Kraków,1,0.86,0.01,0.92,0.81,0.17
+40,Kasia Szymański,Tech Early Adopter,10841,38,Inżynier AI,Kraków,4,0.12,0.53,0.49,0.59,0.38
+41,Paweł Kamiński,Gen Z Student,4099,19,Stażysta w korpo,Łódź,1,0.75,0.64,0.52,0.92,0.25
+42,Natalia Zieliński,Gen Z Student,3906,23,Barista,Kraków,1,0.19,0.89,0.9,0.12,0.67
+43,Małgosia Wójcik,Tech Early Adopter,23658,32,Trader Krypto,Łódź,5,0.75,0.42,0.98,0.03,0.48
+44,Rafał Nowak,Senior Citizen,3698,66,Emerytowany Nauczyciel,Wieś (Podkarpacie),2,0.68,0.14,0.45,0.97,0.75
+45,Kamil Mazur,Senior Citizen,4203,68,Emerytowany Górnik,Katowice,2,0.04,0.95,0.68,0.42,0.43
+46,Tomasz Kowalczyk,Corporate Professional,14209,36,Prawnik,Kraków,1,0.45,0.97,0.09,0.39,0.59
+47,Małgosia Krawczyk,Senior Citizen,3849,77,Emerytowany Nauczyciel,Wrocław,1,0.68,0.55,0.94,0.58,0.24
+48,Adam Nowak,Tech Early Adopter,23561,25,Bloger Tech,Katowice,4,0.24,0.59,0.74,0.64,0.58
+49,Tomasz Wiśniewski,Corporate Professional,19860,35,HR Manager,Gdańsk,2,0.32,0.68,0.73,0.54,0.79
+50,Paweł Szymański,Senior Citizen,4082,66,Emeryt Wojskowy,Poznań,1,0.07,0.14,0.22,0.91,0.29
+51,Ewa Mazur,Corporate Professional,22830,41,HR Manager,Poznań,3,0.08,0.04,0.26,0.46,0.15
+52,Anna Kowalski,Senior Citizen,4533,71,Emerytowany Nauczyciel,Wieś (Wielkopolska),2,0.36,0.0,0.07,0.79,0.74
+53,Maria Lewandowski,Senior Citizen,4103,84,Emerytowana Księgowa,Poznań,2,0.44,0.97,0.86,0.29,0.69
+54,Adam Mazur,Tech Early Adopter,7765,37,Product Designer,Wieś (Wielkopolska),3,0.88,0.4,0.4,0.57,0.16
+55,Małgosia Krawczyk,Gen Z Student,526,23,Grafik Freelancer,Wieś (Wielkopolska),5,0.52,0.72,0.7,0.62,0.71
+56,Kamil Woźniak,Tech Early Adopter,11432,37,Trader Krypto,Wieś (Podkarpacie),5,0.45,0.44,0.81,0.77,0.38
+57,Tomasz Wiśniewski,Senior Citizen,4903,67,Emeryt Wojskowy,Wieś (Podkarpacie),2,0.29,0.68,0.0,0.75,0.3
+58,Michał Mazur,Senior Citizen,4825,72,Emerytowany Górnik,Wieś (Podkarpacie),2,0.22,0.23,0.51,0.56,0.96
+59,Małgosia Szymański,Gen Z Student,1725,24,Student,Katowice,3,0.77,0.26,0.92,0.38,0.28
+60,Adam Woźniak,Gen Z Student,3479,25,Student,Wieś (Podkarpacie),1,0.71,0.44,0.23,0.81,0.86
+61,Kamil Nowak,Tech Early Adopter,19061,27,Inżynier AI,Wieś (Podkarpacie),5,0.83,0.35,0.28,0.77,0.66
+62,Małgosia Krawczyk,Corporate Professional,31245,44,Analityk Danych,Łódź,3,0.22,0.33,0.87,0.33,0.86
+63,Michał Zieliński,Tech Early Adopter,8061,32,Product Designer,Małe miasteczko,4,0.26,0.86,0.65,0.91,0.62
+64,Piotr Szymański,Corporate Professional,12491,38,HR Manager,Kraków,5,0.06,0.12,0.55,0.55,0.73
+65,Małgosia Wiśniewski,Gen Z Student,3765,20,Barista,Poznań,1,0.67,0.52,0.07,0.3,0.21
+66,Krzysztof Nowak,Senior Citizen,4790,76,Emerytowany Nauczyciel,Warszawa,1,0.27,0.12,0.85,0.33,0.82
+67,Kamil Lewandowski,Corporate Professional,38956,39,Analityk Danych,Wieś (Podkarpacie),3,0.14,0.74,0.98,0.67,0.63
+68,Kasia Wójcik,Tech Early Adopter,21238,33,Bloger Tech,Wieś (Wielkopolska),5,0.97,0.15,0.37,0.71,0.4
+69,Ewa Wójcik,Tech Early Adopter,19713,40,Inżynier AI,Poznań,1,0.88,0.99,0.84,0.23,0.11
+70,Michał Mazur,Tech Early Adopter,10912,27,Bloger Tech,Wieś (Podkarpacie),5,0.83,0.63,0.76,0.5,0.85
+71,Kasia Zieliński,Tech Early Adopter,18622,31,Startup Founder,Wrocław,5,0.81,0.81,0.27,0.02,0.73
+72,Michał Zieliński,Gen Z Student,2439,23,Student,Wieś (Mazowieckie),3,0.8,0.83,0.19,0.57,0.53
+73,Maria Wiśniewski,Gen Z Student,1067,25,Grafik Freelancer,Wieś (Mazowieckie),3,0.7,0.48,0.72,0.85,0.16
+74,Rafał Zieliński,Corporate Professional,15595,37,Prawnik,Wieś (Mazowieckie),4,0.58,0.82,1.0,0.69,0.17
+75,Adam Szymański,Tech Early Adopter,17914,30,Startup Founder,Wieś (Wielkopolska),2,0.28,0.95,0.18,0.95,0.03
+76,Ewa Woźniak,Senior Citizen,4734,78,Emerytowany Nauczyciel,Kraków,1,0.85,0.55,0.23,0.21,0.44
+77,Ola Zieliński,Gen Z Student,492,23,Student,Łódź,1,0.76,0.65,0.13,0.47,0.12
+78,Małgosia Wójcik,Tech Early Adopter,14365,31,Product Designer,Kraków,3,0.75,0.58,0.09,0.4,0.86
+79,Tomasz Kowalski,Senior Citizen,4562,78,Emerytowany Nauczyciel,Wieś (Podkarpacie),2,0.33,0.74,0.94,0.77,0.2
+80,Tomasz Zieliński,Corporate Professional,25714,46,Analityk Danych,Katowice,1,0.16,0.16,0.31,0.94,0.27
+81,Tomasz Krawczyk,Tech Early Adopter,22842,32,Startup Founder,Łódź,5,0.86,0.28,0.12,0.93,0.13
+82,Tomasz Nowak,Senior Citizen,2664,66,Emeryt Wojskowy,Łódź,2,0.5,0.95,0.14,0.99,0.86
+83,Natalia Mazur,Gen Z Student,111,20,Barista,Katowice,1,0.05,0.61,0.28,0.31,0.03
+84,Rafał Zieliński,Gen Z Student,2261,19,Bezrobotny,Poznań,1,0.52,0.01,0.64,0.6,0.43
+85,Kasia Kamiński,Corporate Professional,20021,44,Marketingowiec,Kraków,3,0.77,0.32,0.58,0.97,0.74
+86,Agnieszka Zieliński,Corporate Professional,12541,29,Manager Projektu,Wrocław,5,0.45,0.47,0.73,0.28,0.36
+87,Krzysztof Szymański,Senior Citizen,3916,67,Emeryt,Warszawa,1,0.46,0.41,0.93,0.99,0.69
+88,Magda Szymański,Senior Citizen,4081,70,Emerytowana Księgowa,Gdańsk,2,0.8,0.97,0.12,0.99,0.96
+89,Bartek Szymański,Gen Z Student,4198,20,Barista,Katowice,1,0.21,0.33,0.78,0.0,0.71
+90,Małgosia Nowak,Tech Early Adopter,15519,32,Trader Krypto,Poznań,1,0.84,0.69,0.44,0.06,0.82
+91,Anna Woźniak,Gen Z Student,3607,24,Grafik Freelancer,Łódź,4,0.58,0.53,0.28,0.66,0.2
+92,Zofia Kamiński,Senior Citizen,3057,74,Emeryt Wojskowy,Poznań,1,0.23,0.38,0.16,0.87,0.4
+93,Bartek Krawczyk,Senior Citizen,4052,78,Emerytowana Księgowa,Poznań,2,0.95,0.81,0.31,0.29,0.87
+94,Kasia Zieliński,Corporate Professional,20587,31,Analityk Danych,Gdańsk,5,0.28,0.38,0.7,0.71,0.2
+95,Paweł Zieliński,Tech Early Adopter,15886,32,Inżynier AI,Gdańsk,4,0.83,0.07,0.35,0.73,0.42
+96,Ola Szymański,Senior Citizen,3422,83,Emeryt Wojskowy,Kraków,1,0.44,0.02,0.92,0.55,0.42
+97,Natalia Wiśniewski,Gen Z Student,2120,21,Barista,Poznań,1,0.34,0.3,0.92,0.82,0.72
+98,Zofia Szymański,Corporate Professional,19708,42,HR Manager,Wieś (Mazowieckie),4,0.84,0.01,0.73,0.91,0.62
+99,Agnieszka Szymański,Corporate Professional,20994,29,HR Manager,Wieś (Mazowieckie),3,0.42,0.45,0.61,0.29,0.54
+100,Ewa Kowalczyk,Gen Z Student,2681,23,Bezrobotny,Gdańsk,2,0.84,0.45,0.64,0.33,0.11
