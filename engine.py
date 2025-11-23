@@ -5,7 +5,7 @@ from enum import Enum
 from dataclasses import dataclass
 import openai
 
-# --- MODEL ---
+# --- MODEL PSYCHOLOGICZNY ---
 @dataclass
 class PersonalityTraits:
     openness: float        
@@ -51,76 +51,53 @@ class DigitalTwin:
         Decyduj realistycznie.
         """
 
-    def evaluate_product(self, product_description: str, price: float, client_openai) -> Dict:
-        print(f"📞 Dzwonię do OpenAI w sprawie: {self.name}...") # <<< NOWY PRINT
+    # ZMIANA: Dodaliśmy argument 'unit' (jednostka)
+    def evaluate_product(self, product_description: str, price: float, unit: str, client_openai) -> Dict:
         prompt = f"""
         Produkt: {product_description}
-        Cena: {price} PLN
-        Decyzja (JSON):
-        {{
-            "decision": "BUY" lub "NO_BUY",
-            "score": (0-100),
-            "reasoning": "Krótkie uzasadnienie",
-            "key_objection": "Główna przeszkoda lub zaleta"
-        }}
+        Cena: {price} PLN za {unit}
+        
+        Oceń zakup w formacie JSON: decision (BUY/NO_BUY), reasoning (krótko), key_objection.
+        Bierz pod uwagę czy cena za taką jednostkę ({unit}) jest rynkowa.
         """
         try:
             response = client_openai.chat.completions.create(
                 model="gpt-4o-mini",
-                messages=[
-                    {"role": "system", "content": self._generate_system_prompt()},
-                    {"role": "user", "content": prompt}
-                ],
+                messages=[{"role": "system", "content": self._generate_system_prompt()}, {"role": "user", "content": prompt}],
                 response_format={ "type": "json_object" } 
             )
-            print(f"✅ Otrzymałem odpowiedź dla: {self.name}") # <<< NOWY PRINT
             return json.loads(response.choices[0].message.content)
         except Exception as e:
-            print(f"❌ BŁĄD API dla {self.name}: {e}") # <<< NOWY PRINT
             return {"decision": "ERROR", "reasoning": str(e)}
-# --- GENERATOR (WERSJA GŁOŚNA) ---
+
+# --- GENERATOR ---
 class PopulationGenerator:
     @staticmethod
     def create_from_csv(filename: str) -> List[DigitalTwin]:
         population = []
-        print(f"--- DEBUG: Próbuję otworzyć plik: {filename} ---")
-        
         try:
             with open(filename, mode='r', encoding='utf-8') as csvfile:
                 reader = csv.DictReader(csvfile)
-                
-                # Sprawdźmy nagłówki
-                print(f"--- DEBUG: Znalezione kolumny: {reader.fieldnames}")
-                
-                for i, row in enumerate(reader):
-                    try:
-                        traits = PersonalityTraits(
-                            openness=float(row['openness']),
-                            conscientiousness=float(row['conscientiousness']),
-                            extraversion=float(row['extraversion']),
-                            agreeableness=float(row['agreeableness']),
-                            neuroticism=float(row['neuroticism'])
-                        )
-                        
-                        agent = DigitalTwin(
-                            id=int(row['id']),
-                            name=row['name'],
-                            segment=MarketSegment.from_str(row['segment']),
-                            traits=traits,
-                            income_level=int(row['income']),
-                            age=int(row['age']),
-                            job=row['job'],
-                            location=row['location'],
-                            family_size=int(row['family_size'])
-                        )
-                        population.append(agent)
-                    except KeyError as e:
-                        print(f"❌ BŁĄD w wierszu {i}: Brakuje kolumny {e}! Sprawdź plik CSV.")
-                    except ValueError as e:
-                        print(f"❌ BŁĄD w wierszu {i}: Zły format liczby! {e}")
-                        
-        except FileNotFoundError:
-            print(f"❌ BŁĄD KRYTYCZNY: Nie znaleziono pliku {filename}!")
-            
-        print(f"--- DEBUG: Załadowano poprawnie {len(population)} osób ---")
+                for row in reader:
+                    traits = PersonalityTraits(
+                        openness=float(row['openness']),
+                        conscientiousness=float(row['conscientiousness']),
+                        extraversion=float(row['extraversion']),
+                        agreeableness=float(row['agreeableness']),
+                        neuroticism=float(row['neuroticism'])
+                    )
+                    agent = DigitalTwin(
+                        id=int(row['id']),
+                        name=row['name'],
+                        segment=MarketSegment.from_str(row['segment']),
+                        traits=traits,
+                        income_level=int(row['income']),
+                        age=int(row['age']),
+                        job=row['job'],
+                        location=row['location'],
+                        family_size=int(row['family_size'])
+                    )
+                    population.append(agent)
+        except Exception as e:
+            print(f"❌ Błąd: {e}")
         return population
