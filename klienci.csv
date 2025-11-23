@@ -1,0 +1,6 @@
+id,name,segment,income,openness,conscientiousness,extraversion,agreeableness,neuroticism
+1,Oskar (Programista),Tech Early Adopter,120000,0.9,0.8,0.4,0.5,0.3
+2,Barbara (Emerytka),Senior Citizen,35000,0.2,0.9,0.5,0.8,0.6
+3,Julka (Influencerka),Gen Z Student,0,0.8,0.2,0.9,0.7,0.4
+4,Darek (Dyrektor),Corporate Professional,250000,0.6,0.9,0.8,0.2,0.4
+5,Sebastian (Sceptyk),Tech Early Adopter,60000,0.5,0.9,0.2,0.1,0.9
